@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    environament {
+    environment {
         IMAGE_NAME= 'my-java-app'
     }
     stages {
